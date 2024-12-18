@@ -10,6 +10,7 @@ const Update = () => {
 		pages: 0,
 		isAvailable: false,
 	});
+
 	const { id } = useParams();
 	const navigate = useNavigate();
 	const [ErrorHandler, setErrorHandler] = useState({});
